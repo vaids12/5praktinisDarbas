@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.title {
+    background-color: blue;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    pad: 30px 0;
+
+}
+
+.icon1 {
+    font-size: 50px;
+    padding: 40px 0 0 0;
+}
+
+.comingSoon {
+    width: 600px;
+    height: 50px;
+    font-size: 60px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 0;
+
+
+}
+
+.smallLetters1 {
+    padding: 0;
+    margin: 30px 0 0 0;
+    font-size: 13px;
+    color: rgb(221, 213, 213);
+}
+
+.smallLetters2 {
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-size: 13px;
+    color: rgb(221, 213, 213);
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.numberRow,
+.timeNameRow {
+    padding: 0 30px;
+    width: 150px;
+    color: white;
+}
+
+
+
+.timeName {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+input[ type=email] {
+    border-style: none;
+    background-color: inherit;
+    width: 500px;
+    margin: 25px 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.submit {
+    position: relative;
+}
+
+.submit [type=button] {
+    background-color: tomato;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit [type=button]:hover {
+    opacity: 0.8;
+}
+
+.icon2 {
+    margin-top: 10px;
+    transform: rotate(90deg);
+    font-size: 25px;
+    color: white;
+}
+
+.main {
+    background-color: rgb(245, 238, 238);
+    height: 37%;
+    width: 100%;
+}
+
+.bottom {
+    background-color: blue;
+    height: 18%;
+    width: 100%;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box1 {
+    margin-top: 40px;
+    width: 20%;
+    height: 300px;
+}
+
+.graphics, .graphics1 {
+    display: flex;
+    justify-content: start;
+    margin: 10px 10px 10px 0;
+   border-bottom: 2px solid gray;
+    width: 90%;
+}
+
+.graphTitle1 {
+    margin-right: 220px;
+    margin-bottom: 10px;
+}
+
+.graphTitle2 {
+    margin-right: 190px;
+    margin-bottom: 10px;
+
+}
+
+.graphTitle3 {
+    margin-right: 144px; 
+    margin-bottom: 10px;
+}
+
+.uxProcent {
+    border: 2px solid blue;
+    width: 81%;
+    position: absolute;
+   top: 29px;
+       
+}
+
+.designProcent {
+    border: 2px solid blue;
+    width: 77%;
+    position: absolute; 
+    top: 71px;
+}
+
+.developProcent {
+    border: 2px solid blue;
+    width: 77%;
+    position: absolute; 
+    top: 113px;
+}
+
+
+.graphBox {
+    position: relative;
+}
+
+
+
+
+.smollestLetter {
+    font-size: 12px;
+}
+
+.box2 {
+    margin-top: 40px;
+    width: 20%;
+    height: 300px;
+    pad: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #000;
+}
+
+.sendMessage {
+   
+    color: black;
+    display: inline-block;
+  
+  
+
+}
+
+.sendMessage input[type=text], .sendMessage input[type=email] {
+    width: 180px;
+      background-color: inherit;
+      border: none;
+      border-bottom: 1px solid gray;
+      padding: 5px;
+}
+
+.sendMessage textarea{
+    width: 370px;
+    height: 50px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.sendMessage input[type=submit] {
+    margin: 20px 20px 20px  150px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    text-align:center ;
+ color: white;
+ width: 150px;
+ height: 30px;
+ cursor: pointer;
+
+}
+
+.sendMessage input[type=submit]:hover{
+opacity: 0.8;
+}
+
+.smollestLetter span {
+    color: red;
+}
+
+.smollestLetter a{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+.circle{
+    position: relative;
+}
+
+
+
+.circle a {
+    position: absolute;
+    background-color: tomato;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    bottom: -57px;
+    right: 50px;
+    z-index: 98;
+
+}
+
+span i {
+    position: absolute;
+    bottom: -48px;
+    right: 61px;
+    color: white;
+z-index: 99;
+}
