@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     width: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: url(./img/city.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -42,7 +42,7 @@ body {
     width: 600px;
     height: 50px;
     font-size: 60px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Archivo Black', sans-serif;
     padding: 0;
 
 
@@ -65,8 +65,8 @@ body {
 .number {
     display: flex;
     flex-direction: row;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-family: 'Rosario', sans-serif;
 }
 
 .numberRow,
@@ -212,7 +212,8 @@ body {
 
 h1 {
     font-size: 20px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Roboto', sans-serif;
+  padding-bottom: 15px;
     color: #000;
 }
 
