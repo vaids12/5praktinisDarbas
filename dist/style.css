@@ -173,7 +173,7 @@ body {
     border: 2px solid blue;
     width: 81%;
     position: absolute;
-    top: 29px;
+    top: 28px;
 
 }
 
@@ -181,14 +181,14 @@ body {
     border: 2px solid blue;
     width: 77%;
     position: absolute;
-    top: 71px;
+    top: 69px;
 }
 
 .developProcent {
     border: 2px solid blue;
     width: 77%;
     position: absolute;
-    top: 113px;
+    top: 110px;
 }
 
 
@@ -201,6 +201,7 @@ body {
 
 .smollestLetter {
     font-size: 12px;
+    padding-right: 8px;
 }
 
 .box2 {
