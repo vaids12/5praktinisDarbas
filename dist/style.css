@@ -12,15 +12,12 @@ body {
     background: url(./img/city.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-  
-  
-    
 }
 
 
 
 .title {
-   
+
     height: 45%;
     width: 100%;
     display: flex;
@@ -28,9 +25,8 @@ body {
     align-items: center;
     text-align: center;
     pad: 30px 0;
-    margin: 0;  
-    background-image: linear-gradient(to bottom,rgba(86, 142, 247, 0.5), rgba(127, 139, 241, 0.75));
-
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgba(86, 142, 247, 0.5), rgba(127, 139, 241, 0.75));
 }
 
 .icon1 {
@@ -44,8 +40,6 @@ body {
     font-size: 60px;
     font-family: 'Archivo Black', sans-serif;
     padding: 0;
-
-
 }
 
 .smallLetters1 {
@@ -84,7 +78,7 @@ body {
     font-size: 10px;
 }
 
- input[ type=email] {
+input[ type=email] {
     border-style: none;
     background-color: inherit;
     width: 500px;
@@ -94,10 +88,9 @@ body {
     padding-bottom: 5px;
 }
 
-.white input[ type=email]::placeholder{
+.white input[ type=email]::placeholder {
     color: white;
     font-size: 10px;
-    
 }
 
 
@@ -161,7 +154,6 @@ body {
 .graphTitle2 {
     margin-right: 190px;
     margin-bottom: 10px;
-
 }
 
 .graphTitle3 {
@@ -196,9 +188,6 @@ body {
     position: relative;
 }
 
-
-
-
 .smollestLetter {
     font-size: 12px;
     padding-right: 8px;
@@ -214,17 +203,13 @@ body {
 h1 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-  padding-bottom: 15px;
+    padding-bottom: 15px;
     color: #000;
 }
 
 .sendMessage {
-
     color: black;
     display: inline-block;
-
-
-
 }
 
 .sendMessage input[type=text],
@@ -255,7 +240,6 @@ h1 {
     width: 150px;
     height: 30px;
     cursor: pointer;
-
 }
 
 .sendMessage input[type=submit]:hover {
@@ -288,7 +272,6 @@ h1 {
     bottom: -57px;
     right: 50px;
     z-index: 98;
-
 }
 
 span i {
@@ -304,8 +287,6 @@ span i {
     height: 18%;
     width: 100%;
     text-align: center;
- 
-
 }
 
 .iconRow {
@@ -317,33 +298,32 @@ span i {
     color: white;
 }
 
-.bottomLine{
+.bottomLine {
     border-top: 1px solid wheat;
     width: 40%;
-  margin-left: 30%;
+    margin-left: 30%;
 }
 
 
-.matroxSize{
+.matroxSize {
     padding: 10px;
 }
-.matroxSize i, .matroxSize span {
+
+.matroxSize i,
+.matroxSize span {
     font-size: 30px;
     color: white;
-
-   
 }
 
 
 .white {
     color: white;
-} 
+}
 
 .bottomRow {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    
 }
 
 .bottomRow p {
@@ -357,5 +337,3 @@ span i {
 .pSize {
     font-size: 10px;
 }
-
-
